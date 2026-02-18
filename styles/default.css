@@ -154,7 +154,15 @@ a.nav-right:hover {
 .video {
   position: relative;
   width: 100%;
-  max-width: 500px; /* match your desired video width */
+  max-width: 500px; 
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.screenshot {
+    position: relative;
+  width: 100% !important; 
+  max-width: 500px; 
   border-radius: 10px;
   overflow: hidden;
 }
